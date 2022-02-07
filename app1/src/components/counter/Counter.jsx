@@ -36,11 +36,11 @@ class Counter extends Component {
 
     reset() {
         console.log("resete");
-        this.setState (
-            () => {
-                return {count: 0};
+        this.setState(
+            { 
+                count: 0 
             }
-        )
+        );
     }
 
     render() {
