@@ -50,7 +50,7 @@ class Counter extends Component {
                 <CounterButton by={5} incrementMethod={this.increment} decrementMethod={this.decrement}/>
                 <CounterButton by={10} incrementMethod={this.increment} decrementMethod={this.decrement}/>
                 <div className="rez">{this.state.count}</div>
-                <button onClick={this.reset}>Reset</button>
+                <button onClick={this.reset} className="resetBtn">Reset</button>
             </div>
         );
     }

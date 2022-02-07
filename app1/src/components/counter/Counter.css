@@ -12,6 +12,10 @@ button {
     color: white;
 }
 
+.resetBtn {
+    background-color: green;
+}
+
 .rez {
     font-size: larger;
     color: white;
