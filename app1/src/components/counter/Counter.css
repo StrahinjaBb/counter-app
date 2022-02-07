@@ -4,9 +4,14 @@ body {
 }
 
 button {
-    font-size: large;
+    size: 40px;
     padding: 1em;
     margin: 1em;
     background-color: crimson;
+    color: white;
+}
+
+.rez {
+    font-size: larger;
     color: white;
 }
