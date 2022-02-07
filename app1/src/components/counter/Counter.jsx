@@ -59,29 +59,15 @@ class Counter extends Component {
 class CounterButton extends Component {
     constructor() {
         super();
-
-        this.increment = this.increment.bind(this);
-        this.decrement = this.decrement.bind(this);
     }
 
     render() {
         return (
             <div className="counterButton">
-                <button onClick={this.increment}>+{this.props.by}</button>
-                <button onClick={this.decrement}>-{this.props.by}</button>
+                <button onClick={() => this.props.incrementMethod(this.props.by)}>+{this.props.by}</button>
+                <button onClick={() => this.props.decrementMethod(this.props.by)}>-{this.props.by}</button>
             </div>
         );
-    }
-
-    increment() {
-        console.log("increment CHILD");
-
-        this.props.incrementMethod(this.props.by);
-    }
-
-    decrement() {
-        console.log("decrement CHILD");
-        this.props.decrementMethod(this.props.by);
     }
 }
 
