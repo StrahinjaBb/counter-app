@@ -1,0 +1,12 @@
+body {
+    background-color: darkslategray;
+    text-align: center;
+}
+
+button {
+    font-size: large;
+    padding: 1em;
+    margin: 1em;
+    background-color: crimson;
+    color: white;
+}
