@@ -6,6 +6,7 @@ body {
 button {
     size: 40px;
     padding: 1em;
+    width: 100px;
     margin: 1em;
     background-color: crimson;
     color: white;
