@@ -7,13 +7,13 @@ button {
     size: 40px;
     padding: 1em;
     width: 100px;
-    margin: 1em;
-    background-color: crimson;
+    margin: 4px;
+    background-color: green;
     color: white;
 }
 
 .resetBtn {
-    background-color: green;
+    background-color: crimson;
 }
 
 .rez {
